@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './main.css';
 import reportWebVitals from './reportWebVitals';
+import App from './App';
+
+import Layout from './components/Layout';
+import Wrap1 from "./components/Wrap";
+
+
+import Page_router from './components/Page_router';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+<Page_router/>
+   
   </React.StrictMode>
 );
 
