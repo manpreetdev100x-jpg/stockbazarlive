@@ -1,5 +1,5 @@
 import personalimg from "./images/top.png"
-import finalpng from "./images/crypto2.png"
+import finalpng from "./images/crypto"
 
 
 import "./style.css"

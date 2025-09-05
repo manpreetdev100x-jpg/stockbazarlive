@@ -10,7 +10,7 @@ function Section_first() {
             <p>Empowering traders with knowledge, strategy, and confidence.</p>
         </div>
         <div>
-            <img src="" />
+            <img src=""  />
         </div>
      </div>
     );
