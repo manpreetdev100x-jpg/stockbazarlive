@@ -23,7 +23,7 @@ function Nav() {
     <div className=" relative flex justify-center   bg-themeblack z-50 ">
 
      <div className="w-full bg-black flex justify-center z-50">
-       <div className=" relative h-16  md:h-20 bg-themeblack glass-green2 flex justify-center  items-center  z-50 lg:fixed mt-4">
+       <div className=" relative h-16  lg:h-20 bg-themeblack glass-green2 flex justify-center  items-center  z-50 lg:fixed mt-4">
         <div className="  flex  flex-row w-full px-0 md:mx-4">
 
 
@@ -40,12 +40,12 @@ function Nav() {
           </div>
 
 
-       <div className="w-2/3 lg:flex flex-row justify-end items-center gap-20 px-10 text-textwhite font-semibold hidden  ">
-            <Link to="/courses"> <div className=" flex items-center text-xl">Courses</div></Link>
+       <div className="w-2/3 md:flex flex-row justify-end items-center md:gap-10 lg:gap-20 px-10 text-textwhite font-semibold hidden  ">
+            <Link to="/courses"> <div className=" flex items-center lg:text-xl">Courses</div></Link>
             {/* <Link to="/blog"><div className=" flex items-center text-xl" >Performance</div></Link> */}
-            <Link to="/about_us"><div className=" flex items-center text-xl">About us</div></Link>
+            <Link to="/about_us"><div className=" flex items-center lg:text-xl">About us</div></Link>
 
-            <Link to="/contact"> <div className=" flex items-center text-xl">Contact us</div></Link>
+            <Link to="/contact"> <div className=" flex items-center lg:text-xl">Contact us</div></Link>
           </div>
 
 

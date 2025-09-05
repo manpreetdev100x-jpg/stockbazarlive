@@ -50,9 +50,9 @@ const ContactForm = () => {
 
   return (
     <div className='flex  flex-col'>
-      <div className='md:py-32 flex justify-center items-center w-screen h-auto relative  z-40 pb-20 bg-themeblack'>
+      <div className='lg:py-32 flex justify-center items-center w-screen h-auto relative  z-40 bg-themeblack'>
 
-        <div className=' mx-5 mt-8 md:w-2/4 '>
+        <div className=' mx-5 mt-8 md:3/4 lg:w-2/4 '>
           <form
             className="max-w-2xl mx-auto bg-red-500 text-white p-8 rounded-lg shadow-md space-y-4 glass-green2  glow-hover glass-green2_button "
             onSubmit={handleSubmit}
@@ -60,20 +60,20 @@ const ContactForm = () => {
             <h2 className="text-2xl font-bold mb-4">Contact Form</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input type="text" name="firstName" placeholder="First Name *" className="p-2 rounded text-black bg-transparent border-2" required onChange={handleChange} />
-              <input type="text" name="lastName" placeholder="Last Name *" className="p-2 rounded text-black bg-transparent border-2 " required onChange={handleChange} />
+              <input type="text" name="firstName" placeholder="First Name *" className="p-2 text-white rounded  bg-transparent border-2" required onChange={handleChange} />
+              <input type="text" name="lastName" placeholder="Last Name *" className="p-2 text-white rounded  bg-transparent border-2 " required onChange={handleChange} />
             </div>
 
-            <input type="email" name="email" placeholder="Email *" className="w-full p-2 rounded text-black bg-transparent border-2" required onChange={handleChange} />
+            <input type="email" name="email" placeholder="Email *" className="w-full p-2 rounded  bg-transparent border-2" required onChange={handleChange} />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input type="tel" name="phone" placeholder="Phone *" className="p-2 rounded text-black bg-transparent border-2" required onChange={handleChange} />
-              <input type="tel" name="confirmPhone" placeholder="Confirm Phone *" className="p-2 rounded text-black bg-transparent border-2" required onChange={handleChange} />
+              <input type="tel" name="phone" placeholder="Phone *" className="p-2 rounded  bg-transparent border-2" required onChange={handleChange} />
+              <input type="tel" name="confirmPhone" placeholder="Confirm Phone *" className="p-2 rounded bg-transparent border-2" required onChange={handleChange} />
             </div>
 
-            <input type="text" name="city" placeholder="City *" className="w-full p-2 rounded text-black bg-transparent border-2" required onChange={handleChange} />
+            <input type="text" name="city" placeholder="City *" className="w-full p-2 rounded  bg-transparent border-2" required onChange={handleChange} />
 
-            <input type="number" name="age" placeholder="Age *" className="w-full p-2 rounded text-black bg-transparent border-2" required onChange={handleChange} />
+            <input type="number" name="age" placeholder="Age *" className="w-full p-2 rounded bg-transparent border-2" required onChange={handleChange} />
 
             <select name="capital" className="w-full p-2 rounded bg-transparent border-2 text-white " required onChange={handleChange}>
               <option value="">How much capital are you planning to trade with? *</option>
@@ -90,7 +90,7 @@ const ContactForm = () => {
               <option value="Expert">Expert</option>
             </select>
 
-            <input type="text" name="contactTime" placeholder="Preferable Time to Contact *" className="w-full p-2 rounded text-black bg-transparent border-2" required onChange={handleChange} />
+            <input type="text" name="contactTime" placeholder="Preferable Time to Contact *" className="w-full p-2 rounded  bg-transparent border-2" required onChange={handleChange} />
 
             <div className="space-y-2 bg-transparent border-2">
               <p>Would you like to enroll for the upcoming batch? *</p>
@@ -105,7 +105,7 @@ const ContactForm = () => {
             </div>
 
 
-            <button type="submit" className="bg-white opacity-50 text-black font-bold py-2 px-4   rounded">
+            <button type="submit" className="bg-white opacity-50 text-black font-bold py-2 px-4 hover:opacity-100 rounded">
               Send Message
             </button>
           </form>

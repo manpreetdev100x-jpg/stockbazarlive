@@ -10,6 +10,10 @@ import Wrap from "./Wrap";
 import Course from "./Course";
 import ContactForm from "./ContactForm"
 import About_us from "./About_us";
+import Screenloading from "./Screenloading";
+import { useState, useEffect } from "react";
+
+
 
   const router = createBrowserRouter([
     {
@@ -36,15 +40,26 @@ import About_us from "./About_us";
     },
   ]);
   
-//   const root = document.getElementById("root");
-  
-//   ReactDOM.createRoot(root).render(
-//     <RouterProvider router={router} />
-//   );
+
 
 function Page_router(){
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+   
+    const timer = setTimeout(() => {
+      setLoading(false); 
+    }, 5000);
+
+    return () => clearTimeout(timer); // cleanup
+  }, []);
+
+
     return(
-        <RouterProvider router={router}></RouterProvider>
+       <div>
+         {loading ? <Screenloading/> : <RouterProvider router={router}></RouterProvider>}
+         
+       </div>
     )
 }
 

@@ -3,10 +3,10 @@ import Nav from "./Nav";
 import { Outlet } from "react-router-dom";
 function Layout(){
     return(
-        <>
-        <Nav/>
-        <Outlet/>
-        </>
+       <div className="min-h-screen bg-themeblack ">
+         <Nav/>
+        <Outlet />
+       </div>
     )
 }
 

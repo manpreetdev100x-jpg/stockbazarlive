@@ -8,3 +8,8 @@
     font-family: libra ;
     src: url("./components/poster/textstyle/LibreBaskerville-Bold.ttf");
 }
+
+body {
+  background-color: black;
+  color: white; /* optional: makes text readable */
+}

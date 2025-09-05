@@ -64,7 +64,7 @@ function Course() {
          <div className="w-full h-auto  bg-themegreen glow-hover glass-green2_button overflow-hidden text-white pb-5 md:pb-8 ">
           <h1 className=" font-serif text-6xl">Trading with Data Science</h1>
           
-          <h2 className=" text-  p-6 pb-2 px-8 space-y-3 lg:w-3/3 font-sans lg:font-medium md:font-light text-textwhite text-lg md:text-xl ">
+          <h2 className="  p-6 pb-2 px-8 space-y-3 lg:w-3/3 font-sans lg:font-medium md:font-light text-textwhite text-lg md:text-xl ">
             The Trading With Data Science Program aims to help you learn and apply the knowledge and skills of a professional trader, with the potential for profitable outcomes. It encompasses numerous strategies and price action techniques suitable for various financial markets and trading styles, including Indian stocks, futures & options, the foreign exchange market, and commodities, covering intraday and swing trading.
           </h2>
 

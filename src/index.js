@@ -9,12 +9,17 @@ import Wrap1 from "./components/Wrap";
 
 
 import Page_router from './components/Page_router';
+import Screenloading from './components/Screenloading';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-<Page_router/>
+  <React.StrictMode > 
+<div className="min-h-screen bg-black ">
+      <Page_router />
+      {/* <Screenloading/> */}
+    </div>
+
    
   </React.StrictMode>
 );
