@@ -1,4 +1,4 @@
-import menu from "./images/open-menu.png"
+import menu from "./images/nav-icon.png"
 import logo from "./images/stocklogo.png"
 import { useState } from "react";
 import "./style.css"

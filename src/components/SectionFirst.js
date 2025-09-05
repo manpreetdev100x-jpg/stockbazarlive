@@ -1,5 +1,5 @@
 import personalimg from "./images/top.png"
-import finalpng from "./images/cr"
+import finalpng from "./images/crypto2.png"
 
 
 import "./style.css"
@@ -9,7 +9,7 @@ import { useNavigate } from "react-router";
 function SectionFirst() {
     const navgat = useNavigate();
     return (
-        <div className=" w-full h-screen  bg-themeblack  md:w-full md:h-full pt-20  md:pt-10  lg:pt-24 md:pb-10 bg-cover bg-center  " > 
+        <div className=" w-full h-screen  bg-themeblack overflow-hidden  md:w-full md:h-full pt-20  md:pt-10  lg:pt-24 md:pb-10 bg-cover bg-center  " > 
 
             <div className="  w-full h-full " >
                 <div className="  bg-themegreen absolute translate-x-20 translate-y-40 blure "></div>
@@ -29,7 +29,7 @@ function SectionFirst() {
                 </div>
                 
                 <div className=" w-6/12  h-auto md:pt-10  flex   items-center ">
-                    <div className=" md:w-full  hidden   items-start md:block "> <img className="lg:max-w-xl " src={finalpng} /></div>
+                    <div className=" md:w-5/6 lg:w-full   hidden   items-start md:block "> <img className=" lg:max-w-xl " src={finalpng} /></div>
                 </div>
             </div>
             </div>
