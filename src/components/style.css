@@ -1,0 +1,122 @@
+body{
+    background-color: #1D1919;
+}
+.blure{
+    width: 280px;
+    height: 280px;
+    filter: blur(300px);
+ 
+    z-index: 0
+   
+}
+@media (max-width: 600px) {
+    .blure{
+        width: 150px;
+        height: 150px;
+        filter: blur(100px);
+       z-index: 1;
+    }
+  }
+.glass{
+  box-shadow: 100px 100px 100px green;
+}
+
+.abovez{
+    z-index: 1;
+}
+.navabove{
+    z-index: 999;
+    backdrop-filter: blur(30px);
+}
+
+.section2{
+    width: 450px;
+    height: 450px;
+    filter: blur(350px);
+   z-index: 1;
+    transform: translateX(5%);
+    transform: translateY(70%);
+}
+
+.lastblur{
+    width: 350px;
+    height: 350px;
+    filter: blur(350px);
+   z-index: 1;
+   transform: translateX(100%);
+
+   
+}
+
+.glass-green {
+    background: rgba(0, 128, 0, 0.3); /* green with transparency */
+   
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(0, 128, 0, 0.37);
+   
+    max-width: 400px;
+   
+    text-align: center;
+  }
+  .glass-green2 {
+    
+    background: rgba(0, 128, 0, 0.3); /* green with transparency */
+   
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(0, 128, 0, 0.37);
+   
+    /* max-width: 400px; */
+    width: 90%;
+   
+    text-align: center;
+  }
+  .glass-green2_button {
+    
+    background: rgba(0, 128, 0, 0.3); /* green with transparency */
+   
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(0, 128, 0, 0.37);
+   
+   
+    text-align: center;
+  }
+
+
+  .glow-hover {
+   
+   
+    border-radius: 12px;
+    transition: box-shadow 0.3s ease;
+     
+  }
+  
+  .glow-hover:hover {
+    box-shadow: 0 0 20px 5px rgba(0, 255, 0, 0.7);
+  }
+
+
+
+  @keyframes glow {
+  0%, 100% {
+    
+    transform: scale(1);
+  }
+  50% {
+
+    transform: scale(1.1);
+  }
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite ;
+  
+}
