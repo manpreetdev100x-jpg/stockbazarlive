@@ -1,4 +1,4 @@
-import personalimg from "./images/top.png"
+
 import finalpng from "./images/crypto2.png"
 
 

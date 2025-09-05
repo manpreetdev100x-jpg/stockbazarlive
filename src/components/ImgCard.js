@@ -1,4 +1,4 @@
-import price from"./images/priceaction.jpg"
+
 function ImgCard({poster}) {
   console.log(poster); 
     return (

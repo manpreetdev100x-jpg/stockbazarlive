@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.098c56c3.css",
+    "main.js": "/static/js/main.e2ab197b.js",
+    "static/js/453.39febcd5.chunk.js": "/static/js/453.39febcd5.chunk.js",
+    "static/media/crypto2.png": "/static/media/crypto2.348c04279f607d445e6d.png",
+    "static/media/aboutimage.png": "/static/media/aboutimage.2324476c371e37a2f255.png",
+    "static/media/greenlogo2.png": "/static/media/greenlogo2.1cb2f80d48d0c02f85cb.png",
+    "static/media/greenlogo1.png": "/static/media/greenlogo1.dff59075c55300364b54.png",
+    "static/media/stockbazar.png": "/static/media/stockbazar.45ff1ca75f313a70ffcc.png",
+    "static/media/stocklogo.png": "/static/media/stocklogo.2e7ede36a23fa8f4197f.png",
+    "static/media/priceaction.png": "/static/media/priceaction.5db2878642548288c383.png",
+    "static/media/datascience.jpg": "/static/media/datascience.938d6821deaebd05c633.jpg",
+    "static/media/optionselling.png": "/static/media/optionselling.6c3fde0bde115d048822.png",
+    "static/media/LibreBaskerville-Bold.ttf": "/static/media/LibreBaskerville-Bold.6e5f70731aeed7c6e895.ttf",
+    "static/media/I-1.png": "/static/media/I-1.2daa58c9f29fed3c7157.png",
+    "static/media/I-2.png": "/static/media/I-2.3438b4004fe8f6de3076.png",
+    "static/media/I-6.png": "/static/media/I-6.c6ac8f2371b24292bf11.png",
+    "index.html": "/index.html",
+    "main.098c56c3.css.map": "/static/css/main.098c56c3.css.map",
+    "main.e2ab197b.js.map": "/static/js/main.e2ab197b.js.map",
+    "453.39febcd5.chunk.js.map": "/static/js/453.39febcd5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.098c56c3.css",
+    "static/js/main.e2ab197b.js"
+  ]
+}
