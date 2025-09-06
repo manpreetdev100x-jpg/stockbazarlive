@@ -1,5 +1,5 @@
 
-// import finalpng from "/images/crypto.png"
+import finalpng from "./images/crypto2.jpg"
 
 
 
@@ -17,7 +17,7 @@ function SectionFirst() {
             <div className=" flex flex-col  md:pt-0 md:flex-row  md:mx-20 lg:mx-32 ">
 
                 <div className=" w-full h-full flex justify-center  md:hidden ">
-                    <div className="w-5/6 flex justify-center"> <img className="w-full lg:max-w-full" src="/images/crypto.jpg" /></div>
+                    <div className="w-5/6 flex justify-center"> <img className="w-full lg:max-w-full" src={finalpng} /></div>
                 </div>
 
                 <div className="md:w-7/12 lg:w-full flex flex-col pt-8  items-center justify-center  md:items-start">
@@ -30,7 +30,7 @@ function SectionFirst() {
                 </div>
                 
                 <div className=" w-6/12  h-auto md:pt-10  flex   items-center ">
-                    <div className=" md:w-5/6 lg:w-full   hidden   items-start md:block "> <img className=" lg:max-w-xl " src="/images/crypto.jpg" /></div>
+                    <div className=" md:w-5/6 lg:w-full   hidden   items-start md:block "> <img className=" lg:max-w-xl " src={finalpng} /></div>
                 </div>
             </div>
             </div>

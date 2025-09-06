@@ -4,6 +4,8 @@ import "./style.css"
 // import { NavLink } from "react-router";
 import { Link } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
+import logo from "./images/stocklogo.jpg"
+import navicon from "./images/nav-icon.jpg"
 
 function Nav() {
 
@@ -27,14 +29,14 @@ function Nav() {
 
 
           <div className=" w-4/6 md:w-1/3 md:p-3  flex items-center" onClick={() => { navg("/") }}>
-            <img className=" w-5/6 h-auto md:w-2/3" src="/images/stocklogo.png" />
+            <img className=" w-5/6 h-auto md:w-2/3" src={logo} />
           </div>
 
 
 
 
           <div className="  w-2/6 flex items-center justify-end px-3 md:hidden ">
-            <img className=" w-10" onClick={navHandler} src="/images/nav-icon.png" />
+            <img className=" w-10" onClick={navHandler} src={navicon} />
 
           </div>
 
