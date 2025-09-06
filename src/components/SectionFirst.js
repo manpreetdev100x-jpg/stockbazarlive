@@ -17,7 +17,7 @@ function SectionFirst() {
             <div className=" flex flex-col  md:pt-0 md:flex-row  md:mx-20 lg:mx-32 ">
 
                 <div className=" w-full h-full flex justify-center  md:hidden ">
-                    <div className="w-5/6 flex justify-center"> <img className="w-full" src="/images/crypto.png" /></div>
+                    <div className="w-5/6 flex justify-center"> <img className="w-full lg:max-w-full" src="https://res.cloudinary.com/dnw9zc5ps/image/upload/v1757168813/crypto2_g7aowz.png" /></div>
                 </div>
 
                 <div className="md:w-7/12 lg:w-full flex flex-col pt-8  items-center justify-center  md:items-start">
