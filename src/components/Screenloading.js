@@ -5,7 +5,7 @@ function Screenloading() {
   return (
     <div className="w-screen h-screen bg-themeblack flex justify-center  items-center ">
       <img className="animate-pulse hidden md:block w-5/6 animate-glow " src="/images/greenlogo2.jpg"></img>
-       <img className="animate-pulse  md:hidden w-5/6 animate-glow   " src="/images/greenlogo1.png"></img>
+       <img className="animate-pulse  md:hidden w-5/6 animate-glow   " src="/images/greenlogo1.jpg"></img>
     </div>
   );
 }

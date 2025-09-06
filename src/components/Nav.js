@@ -27,7 +27,7 @@ function Nav() {
 
 
           <div className=" w-4/6 md:w-1/3 md:p-3  flex items-center" onClick={() => { navg("/") }}>
-            <img className=" w-5/6 h-auto md:w-2/3" src="/images/stocklogo.png" />
+            <img className=" w-5/6 h-auto md:w-2/3" src="/public/images/stocklogo.png" />
           </div>
 
 
