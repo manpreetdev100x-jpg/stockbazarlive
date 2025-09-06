@@ -1,5 +1,5 @@
 import Segments from "./Segments";
-import imgurl from "./images/I-5.png"
+// import imgurl from "./images/I-5.png"
 
 import buying from "./segment_logo/I-1.png"
 import selling from "./segment_logo/I-2.png"

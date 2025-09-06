@@ -1,11 +1,11 @@
 
-import logo from "./images/stockbazar.png"
+// import logo from "./images/stockbazar.png"
 function SectionThird() {
     return (
         <div className="w-full h-auto  py-8">
             <div className="flex flex-col md:flex-row md:items-center mx-10 md:mx-20">
                 <div className=" mt-10 md:mt-0 w-full h-full md:h-full md:w-1/2 md:flex md:justify-center md:items-center ">
-                    <img className=" w-full lg:h-full md:w-full p-8 mix-blend-multiply abovez" src={logo} />
+                    <img className=" w-full lg:h-full md:w-full p-8 mix-blend-multiply abovez" src="/images/stockbazar.png" />
                 </div>
                 <div className="w-full mt-5 md:mt-0 abovez md:w-1/2">
                     <h1 className=" font-sans font-bold text-xl text-themegreen md:text-5xl">Why Choose Us ?</h1>

@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router";
-import logo from "./images/stocklogo.png"
+// import logo from "./images/stocklogo.png"
 function Footer() {
    const navigate = useNavigate();
 
@@ -12,13 +12,13 @@ function Footer() {
             <div className="w-screen  flex md:justify-center px-10 md:items-center  h-64  max-h-full md:h-64  fixed   bottom-0 z-0 bg-footercolor text-white">
                 {/* mobile */}
                 <div className=" md:hidden   flex flex-col items-center justify-center md:w-1/4">
-                    <img className=" w-64 h-16 md:w-full md:h-24 " src={logo} />
+                    <img className=" w-64 h-16 md:w-full md:h-24 " src="/images/stocklogo.png" />
                     <h2 className="font-serif text-xs  w-32 md:w-24  md:text-lg pt-3  text-center">Empowering your financial journey with innovative solutions and unparalleled service.</h2>
                 </div>
                 {/* desktop */}
                 <div className=" flex md:flex w-full h-full md:justify-evenly md:items-center  px-5 md:px-20">
                     <div className=" hidden md:inline-block  md:w-1/4">
-                        <img className=" w-40 h-12  md:w-full md:h-24 px-5" src={logo} />
+                        <img className=" w-40 h-12  md:w-full md:h-24 px-5" src="/images/stocklogo.png" />
                         <h2 className="font-serif text-xs w-auto  md:text-lg pt-3 text-center">Empowering your financial journey with innovative solutions and unparalleled service.</h2>
                     </div>
                     <div className=" md:w-1/4 hidden   h-full md:flex  flex-col justify-evenly items-center">

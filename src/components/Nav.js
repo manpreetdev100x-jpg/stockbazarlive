@@ -1,5 +1,4 @@
-import menu from "./images/nav-icon.png"
-import logo from "./images/stocklogo.png"
+
 import { useState } from "react";
 import "./style.css"
 // import { NavLink } from "react-router";
@@ -28,14 +27,14 @@ function Nav() {
 
 
           <div className=" w-4/6 md:w-1/3 md:p-3  flex items-center" onClick={() => { navg("/") }}>
-            <img className=" w-5/6 h-auto md:w-2/3" src="./images/stocklogo.png" />
+            <img className=" w-5/6 h-auto md:w-2/3" src="/images/stocklogo.png" />
           </div>
 
 
 
 
           <div className="  w-2/6 flex items-center justify-end px-3 md:hidden ">
-            <img className=" w-10" onClick={navHandler} src={menu} />
+            <img className=" w-10" onClick={navHandler} src="/images/nav-icon.png" />
 
           </div>
 

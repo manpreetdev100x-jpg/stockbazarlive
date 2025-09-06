@@ -1,4 +1,4 @@
-import logo from "./images/stocklogo.png"
+import logo from "/images/stocklogo.png"
 
 function LoadingPage() {
   return (
