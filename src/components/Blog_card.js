@@ -1,4 +1,4 @@
-import blog_poster from "./poster/priceaction.png"
+import blog_poster from "./poster/priceaction.jpg"
 function Blog_card(){
     return(
         <div  className="w-full h-auto  bg-themegreen glow-hover glass-green2_button overflow-hidden text-white" >
