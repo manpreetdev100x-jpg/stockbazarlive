@@ -1,6 +1,6 @@
 import Card_soon from "./Card_soon";
 import Footer from "./Footor";
-import aboutimage from "./poster/aboutimage.jpg"
+import aboutimage from "./poster/aboutimage.png"
 
 function About_us() {
     return (
