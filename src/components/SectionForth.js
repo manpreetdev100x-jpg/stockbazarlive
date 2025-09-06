@@ -1,7 +1,7 @@
 import ImgCard from "./ImgCard";
 
 import pricesction from "./poster/priceaction.jpg"
-import Option from "./poster/optionselling.png"
+import Option from "./poster/optionselling.jpg"
 import datascience from "./poster/datascience.jpg"
 function SectionForth() {
     return (

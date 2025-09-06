@@ -1,12 +1,12 @@
 import Segments from "./Segments";
 // import imgurl from "./images/I-5.png"
 
-import buying from "./segment_logo/I-1.png"
-import selling from "./segment_logo/I-2.png"
-import forex from "./segment_logo/I-3.png"
-import short_investing from "./segment_logo/I-6.png"
-import intradday from "./segment_logo/I-7.png"
-import swingtrading from "./segment_logo/I-5.png"
+import buying from "./segment_logo/I-1.jpg"
+import selling from "./segment_logo/I-2.jpg"
+import forex from "./segment_logo/I-3.jpg"
+import short_investing from "./segment_logo/I-6.jpg"
+import intradday from "./segment_logo/I-7.jpg"
+import swingtrading from "./segment_logo/I-5.jpg"
 import "./style.css"
 
 
