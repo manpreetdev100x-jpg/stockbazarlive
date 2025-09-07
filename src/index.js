@@ -2,25 +2,28 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './main.css';
 import reportWebVitals from './reportWebVitals';
-import App from './App';
 
-import Layout from './components/Layout';
-import Wrap1 from "./components/Wrap";
-
-
-import Page_router from './components/Page_router';
 import Screenloading from './components/Screenloading';
+// import Page_router from './components/Page_router';
+
+import { Suspense, lazy } from 'react';
+
+const Page_router = lazy(() => import('./components/Page_router'));
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode > 
-<div className="min-h-screen bg-black ">
+  <React.StrictMode >
+    {/* <div className="min-h-screen bg-black ">
       <Page_router />
-      {/* <Screenloading/> */}
-    </div>
 
-   
+    </div> */}
+
+    <Suspense fallback={<Screenloading />}>
+     <Page_router/>
+    </Suspense>
+
+
   </React.StrictMode>
 );
 

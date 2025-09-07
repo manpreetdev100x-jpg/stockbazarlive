@@ -23,8 +23,8 @@ function SectionSecond() {
         <div className="  mx-10 h-auto pb-16 bg-themeblack md:mx-20 overflow-hidden ">
             <div className=" hidden md:visible lg:blure bg-themegreen section2 absolute"></div>
             <div className=" flex flex-col items-center">
-                <h1 className="font-sans text-4xl text-themegreen md:text-5xl lg:text-6xl font-bold">Segments</h1>
-                <h4 className="md:text-xl lg:text-2xl text-xl text-textwhite font-normal font-thin pt-0">Journey to Become Master</h4>
+                <h1 className="font-hedaingfont text-4xl text-themegreen md:text-5xl lg:text-6xl font-bold">Segments</h1>
+                <h4 className="md:text-xl lg:text-2xl text-xl text-textwhite font-normal pt-0">Journey to Become Master</h4>
             </div>
             <div  className=" flex  flex-row flex-wrap gap-x-3 gap-y-8 pt-5 justify-evenly">
                 <Segments logo={buying} title={'Option Buying'} dis={buyingtext}/>

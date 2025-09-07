@@ -13,7 +13,7 @@ function About_us() {
                     </div>
                     <div className=" md:w-3/5 flex md:justify-end pt-5 ">
                         <div className=" w-64 md:w-full text-textwhite   md:p-10 text-lg  ">
-                            <h1 className="font-sans font-bold  text-themegreen text-center md:text-left text-4xl md:text-5xl md:font-semibold lg:text-6xl">
+                            <h1 className="font-hedaingfont font-bold  text-themegreen text-center md:text-left text-4xl md:text-5xl md:font-semibold lg:text-6xl">
                                 Stock Bazar
                             </h1>
                              <h1 className="font-sans font-semibold text-center md:text-left   text-themegreen  text-lg md:text-2xl">

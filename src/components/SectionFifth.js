@@ -3,7 +3,7 @@ function SectionFifth() {
     return (
         <div className=" relative pb-8">
             <div className="flex justify-center">
-                <h1 className="font-sans font-bold text-3xl md:text-5xl text-themegreen text-center lg:text-6xl ">Key Features of TradEdge</h1>
+                <h1 className="font-hedaingfont font-bold text-3xl md:text-5xl text-themegreen text-center lg:text-6xl ">Key Features of TradEdge</h1>
             </div>
             <div className=" flex justify-evenly md:pt-10 md:b-10 pt-5 ">
                 <div className=" flex flex-col text-white  gap-y-8 md:gap-y-12">
