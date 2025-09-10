@@ -35,7 +35,7 @@ function Footer() {
                         </div>
 
                     </div>
-                    <div className="  text-xs md:text-xl md:w-1/4 flex flex-col justify-center  ">
+                    <div className="  text-xs md:text-xl md:w-auto  flex flex-col justify-center  ">
                         <h1>Address</h1>
                         <h3>SCF122 Phase 1, Gole Market, Jamalpur, Ludhiana</h3>
                         <h3>+91 87289 71355</h3>
