@@ -4,12 +4,12 @@ import aboutimage from "./poster/aboutimage.jpg"
 
 function About_us() {
     return (
-        <div>
-            <div className="w-full h-full md:h-screen gap-5  bg-themeblack  lg:pt-32 px-10  lg:px-20 relative flex flex-col z-30">
+        <div className=" ">
+            <div className="w-full h-full md:h-auto gap-5  bg-themeblack  lg:pt-0 px-10   lg:px-20 relative flex flex-col  z-30">
 
-                <div className="w-full  md:px-0 lg:px-20 flex flex-col md:flex-row items-center justify-evenly p-8">
+                <div className="w-full md:h-screen  md:px-0 lg:px-20  flex flex-col md:flex-row items-center justify-evenly p-8">
                     <div  className=" md:w-2/5 flex items-center justify-center " >
-                        <img className=" w-9/12 md:w-full border rounded-md" src={aboutimage} />
+                        <img className=" w-9/12 md:w-full lg:max-w-sm border rounded-md" src={aboutimage} />
                     </div>
                     <div className=" md:w-3/5 flex md:justify-end pt-5 ">
                         <div className=" w-64 md:w-full text-textwhite   md:p-10 text-lg  ">
