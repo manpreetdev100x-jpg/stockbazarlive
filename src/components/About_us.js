@@ -5,7 +5,7 @@ import aboutimage from "./poster/aboutimage.jpg"
 function About_us() {
     return (
         <div className=" ">
-            <div className="w-full h-full md:h-auto gap-5  bg-themeblack  lg:pt-0 px-10   lg:px-20 relative flex flex-col  z-30">
+            <div className="w-full h-full md:h-auto gap-5  bg-themeblack  lg:pt-10 px-10   lg:px-20 relative flex flex-col  z-30">
 
                 <div className="w-full md:h-screen  md:px-0 lg:px-20  flex flex-col md:flex-row items-center justify-evenly p-8">
                     <div  className=" md:w-2/5 flex items-center justify-center " >
