@@ -16,12 +16,12 @@ function Footer() {
                     <h2 className="font-serif text-xs  w-32 md:w-24  md:text-lg pt-3  text-center">Empowering your financial journey with innovative solutions and unparalleled service.</h2>
                 </div>
                 {/* desktop */}
-                <div className=" flex md:flex w-full h-full md:justify-evenly md:items-center  px-5 md:px-20">
+                <div className=" flex md:flex w-full h-full md:justify-evenly md:items-center  px-5 md:px-0 lg:px-20">
                     <div className=" hidden md:inline-block  md:w-1/4">
                         <img className=" w-40 h-12  md:w-full md:h-24 px-5" src={logo} />
                         <h2 className="font-serif text-xs w-auto  md:text-lg pt-3 text-center">Empowering your financial journey with innovative solutions and unparalleled service.</h2>
                     </div>
-                    <div className=" md:w-1/4 hidden   h-full md:flex  flex-col justify-evenly items-center">
+                    <div className=" md:w-1/4 hidden   h-full lg:flex  flex-col justify-evenly items-center">
                         <div className="text-xl " >
                             <h1 className="font-sans text-xs md:text-xl font-semibold pb-1">Quick Links</h1>
                             <h3 className="text-lg" >About us</h3>
