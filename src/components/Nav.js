@@ -19,6 +19,10 @@ function Nav() {
     }
   }
   const navg = useNavigate();
+const navopen = useState(false);
+  const navopener = ()=>{
+      showhandler(false);
+  }
 
   return (
     <div className=" relative flex justify-center   bg-themeblack z-50 ">
@@ -53,13 +57,14 @@ function Nav() {
         </div>
       </div>
      </div>
+
+    {/* mobile screen */}
       <div className={`w-full h-auto absolute ${show ? " mt-20" : "-mt-48"}  mt-20 mx-3  transition-all duration-700  text-white  font-bold font-sans flex flex-col items-center  lg:hidden`}>
         <div className="bg-themegreen  bg-opacity-50 w-5/6 p-5 mx-5 flex flex-col items-center border border-transparent rounded-b-xl z-40">
-           <Link to="/courses"> <div className=" flex items-center text-op text-xl text-white ">Courses</div></Link>
-            {/* <Link to="/blog"><div className=" flex items-center text-xl" >Performance</div></Link> -mt-40"  */}
-            <Link to="/about_us"><div className=" flex items-center text-xl">About us</div></Link>
+           <Link to="/courses"> <div onClick={navopener} className=" flex items-center text-op text-xl text-white ">Courses</div></Link>
+            <Link to="/about_us"><div onClick={navopener} className=" flex items-center text-xl">About us</div></Link>
 
-            <Link to="/contact"> <div className=" flex items-center text-xl">Contact us</div></Link>
+            <Link to="/contact"> <div onClick={navopener} className=" flex items-center text-xl">Contact us</div></Link>
       </div>
         </div>
     </div>
